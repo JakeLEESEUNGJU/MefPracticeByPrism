@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="StateInfoModule.Views.StateInfoView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Height="480" Width="800">
+    <Grid>
+
+        <Button x:Name="SensorABtn" Content="SensorA" HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top" Width="460" Height="85" Command="{Binding ImageCommand}" Background="{Binding ImageConnectColor}"/>
+        <Button x:Name="SensorBBtn" Content="SensorB" HorizontalAlignment="Left" Margin="10,254,0,0" VerticalAlignment="Top" Width="460" Height="87" Command="{Binding TextCommand}" Background="{Binding TextConnectColor}"/>
+
+    </Grid>
+
+</UserControl>
